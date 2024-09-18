@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form action="/submit" method="post">
+        <h2>Sign up</h2>
+        <input type="text" name="fullname" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <input
+          type="password"
+          name="confirm_password"
+          placeholder="Confirm Password"
+          required
+        />
+        <button type="submit">Sign Up</button>
+      </form>
+      <div>
+        <a href="index.html">page 1</a>
+      </div>
+      <div>
+        <a href="index2.html">page 2</a>
+      </div>
+    </div>
+    <style>
+      form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        width: 200px;
+      }
+      input,
+      button {
+        height: 25px;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+    </style>
+  </body>
+</html>
